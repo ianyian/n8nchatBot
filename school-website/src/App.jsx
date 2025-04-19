@@ -29,6 +29,16 @@ function App() {
             <h1>Contact Us</h1>
             <p>Email: info@ourschool.edu</p>
             <p>Phone: +123 456 7890</p>
+            <iframe
+              title='n8n Chatbot'
+              src='https://ianyian.app.n8n.cloud/webhook/99021e28-caeb-440d-880f-d600c8e37bed/chat'
+              style={{
+                width: "100%",
+                height: "400px",
+                border: "none",
+                marginTop: "1rem",
+              }}
+            />
           </div>
         );
       default:
